@@ -795,3 +795,17 @@ textarea {
 .medicos-row {
 	position: relative;
 }
+
+.accordion-heading {
+	background-color: #ddd;
+}
+
+.accordion-heading a {
+	color: #555;
+}
+
+.accordion-heading a:hover {
+	color: #555;
+	text-decoration: none;
+	background-color: #ccc;
+}

@@ -86,8 +86,34 @@ Reportes
 
 							<div class="row">
 								<div class="span8">
-									<strong>Antecedentes (ver)</strong>
+									<strong>Antecedentes</strong>
 									<div class="underline"></div>
+									<div class="accordion" id="accordion2">
+									  <div class="accordion-group">
+									    <div class="accordion-heading">
+									      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+									        Folio FL-138
+									      </a>
+									    </div>
+									    <div id="collapseOne" class="accordion-body collapse in">
+									      <div class="accordion-inner">
+									        Anim pariatur cliche...
+									      </div>
+									    </div>
+									  </div>
+									  <div class="accordion-group">
+									    <div class="accordion-heading">
+									      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+									        Folio FL-138
+									      </a>
+									    </div>
+									    <div id="collapseTwo" class="accordion-body collapse in">
+									      <div class="accordion-inner">
+									        Anim pariatur cliche...
+									      </div>
+									    </div>
+									  </div>
+									</div>
 								</div>
 							</div>
 
@@ -350,4 +376,9 @@ Reportes
 			</div>
 		</div>
 	</body>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+    	$(".collapse").collapse()
+    </script>
 </html>

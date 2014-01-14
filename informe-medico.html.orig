@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<<<<<<< HEAD
+	<head>
+		<meta charset="utf-8">
+		<title>. : : Guanajuato : : .</title>
+		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+			<header>
+<div class="container">
+<div class="row">
+<div class="span2">
+<div class="logo">
+<img src="img/logo.png">
+</div>
+</div>
+<div class="span4 offset6 text-right">
+<div class="row user-name">
+<span class="name">Romer Ramos</span>
+<!-- <a href="#" class="btn">
+<i class="icon-envelope"></i>
+</a> -->
+<a href="#" class="btn btn-danger btn-mini">
+<i class="icon-off icon-white"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+		<div class="system">
+			<div class="container">
+				<div class="row">
+					<div class="span3">
+						<div class="well roles">
+							<a href="dashboard.html" class="active">
+Bandeja de capturador
+							</a>
+							<a href="bandeja-iph.html">
+Bandeja de IPH
+							</a>
+							<a href="bandeja-medicatura.html">
+Bandeja de medicatura
+							</a>
+							<a href="bandeja-calificacion.html">
+Bandeja de calificacion
+							</a>
+							<a href="bandeja-colector.html">
+Bandeja de colector
+							</a>
+							<a href="bandeja-salida.html">
+Bandeja de salida
+							</a>
+							<a href="bandeja-informacion.html">
+Bandeja de informacion
+							</a>
+							<a href="bandeja-reportes.html">
+Reportes
+							</a>
+						</div>
+=======
+<head>
+	<meta charset="utf-8">
+	<title>. : : Guanajuato : : .</title>
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="span2">
+					<div class="logo">
+						<img src="img/logo.png">
+>>>>>>> d24500aed0005e9b15a61b3dcb581a694cf6ca26
+					</div>
+				</div>
+				<div class="span4 offset6 text-right">
+					<div class="row user-name">
+						<span class="name">Romer Ramos</span>
+						<a href="#" class="btn btn-danger btn-mini">
+							<i class="icon-off icon-white"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="system">
+		<div class="container">
+			<div class="row">
+				<div class="span3">
+					<div class="well roles">
+						<a href="dashboard.html">
+							Bandeja de capturador
+						</a>
+						<a href="bandeja-medicatura.html" class="active">
+							Bandeja de medicatura
+						</a>
+						<a href="cargar-oficial.html">
+							Bandeja de calificacion
+						</a>
+						<a href="panel-medico.html">
+							Bandeja de salida
+						</a>
+						<a href="panel-calificador.html">
+							Bandeja de informacion
+						</a>
+						<a href="panel-calificador.html">
+							Reportes
+						</a>
+					</div>
+				</div>
+				<div class="span9">
+					<div class="well">
+						<div class="well-title-form">
+							<div class="row">
+								<div class="span2">
+									<i class="icon-plus-sign"></i>
+									Informe M&eacute;dico
+								</div>
+							</div>
+						</div>
+						<form>
+
+							<div class="row">
+								<div class="span8">
+									<strong>Detenido</strong>
+									<div class="underline"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span2">
+									<label>Nombres</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Apellido Paterno</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Apellido Materno</label>
+									<input>
+								</div>
+								<div class="span2 text-center">
+									<div class="span2 picture-box">
+										Fotograf&iacute;a
+									</div>
+								</div>
+
+							</div>
+
+
+							<div class="row">
+								<div class="span2 text-center">
+									<div class="picture-box">
+										Fotograf&iacute;a
+									</div>
+									<a href="#" class="cargar">Cargar</a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span2">
+									<label>Tipo de sangre</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Cicatrices y tatuajes</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Heridas</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Condiciones previas</label>
+									<input>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span2">
+									<label>Datos m&eacute;dicos</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Datos m&eacute;dicos</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Datos m&eacute;dicos</label>
+									<input>
+								</div>
+								<div class="span2">
+									<label>Datos m&eacute;dicos</label>
+									<input>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span8">
+									<label>Datos del m&eacute;dico de turno</label>
+									<input>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span8">
+									<label>Observaciones</label>
+									<textarea></textarea>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span2 text-center">
+									<a href="#" class="btn btn-info">
+										Datos morfol&oacute;gicos
+									</a>
+								</div>
+								<div class="span2 text-center">
+									<a href="#" class="btn btn-info">
+										Otra<br>
+										Consulta
+									</a>
+								</div>
+								<div class="span2 text-center">
+									<a href="#" class="btn btn-info">
+										Certificado<br>
+										m&eacute;dico
+									</a>
+								</div>
+								<div class="span2 text-center">
+								  		<!-- <a href="#" class="btn btn-info">
+								  			test<br>
+								  			test
+								  		</a> -->
+								  	</div>
+								  </div>
+								  <div class="row save-next">
+								  	<div class="span4 text-center">
+								  		<a href="#" class="btn btn-primary">
+								  			Guardar
+								  			<i class="icon-folder-open icon-white"></i>
+								  		</a>
+								  	</div>
+								  	<div class="span4 text-center">
+								  		<a href="#" class="btn btn-primary">
+								  			Guardar y siguiente
+								  			<i class="icon-folder-open icon-white"></i>
+								  		</a>
+								  	</div>
+								  </div>
+								</form>
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

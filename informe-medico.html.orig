@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-<<<<<<< HEAD
 	<head>
 		<meta charset="utf-8">
 		<title>. : : Guanajuato : : .</title>
@@ -8,28 +7,7 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-			<header>
-<div class="container">
-<div class="row">
-<div class="span2">
-<div class="logo">
-<img src="img/logo.png">
-</div>
-</div>
-<div class="span4 offset6 text-right">
-<div class="row user-name">
-<span class="name">Romer Ramos</span>
-<!-- <a href="#" class="btn">
-<i class="icon-envelope"></i>
-</a> -->
-<a href="login.html" class="btn btn-danger btn-mini">
-<i class="icon-off icon-white"></i>
-</a>
-</div>
-</div>
-</div>
-</div>
-</header>
+		<header>
 		<div class="system">
 			<div class="container">
 				<div class="row">
@@ -60,21 +38,6 @@ Bandeja de informacion
 Reportes
 							</a>
 						</div>
-=======
-<head>
-	<meta charset="utf-8">
-	<title>. : : Guanajuato : : .</title>
-	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="span2">
-					<div class="logo">
-						<img src="img/logo.png">
->>>>>>> d24500aed0005e9b15a61b3dcb581a694cf6ca26
 					</div>
 				</div>
 				<div class="span4 offset6 text-right">

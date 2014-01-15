@@ -809,3 +809,15 @@ textarea {
 	text-decoration: none;
 	background-color: #ccc;
 }
+
+.btn-bottom {
+	margin-top: 20px;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.btn-total {
+	width: 110px;
+}

@@ -818,6 +818,14 @@ textarea {
 	text-align: center !important;
 }
 
+.text-right {
+	text-align: right !important;
+}
+
 .btn-total {
 	width: 110px;
+}
+
+#colect-items .row {
+	margin-bottom: 10px;
 }

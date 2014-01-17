@@ -53,8 +53,11 @@ Bandeja de salida
 Bandeja de informacion
 						</a>
 						<a href="bandeja-reportes.html">
-Reportes
+Bandeja de reportes
 						</a>
+						<a href="bandeja-administrador.html">
+Bandeja de administrador
+							</a>
 					</div>
 				</div>
 				<div class="span9">
@@ -72,51 +75,210 @@ Reportes
 							<div class="form_incidente">
 								<form>
 									<div class="row">
+										<div class="span8">
+											<div class="underline"></div>
+											<strong>Detenido</strong>
+											<div class="underline"></div>
+										</div>
+									</div>
+									<div class="row">
 										<div class="span2">
 											<div class="picture-box">
 												Fotograf&iacute;a
 												<a href="#" class="cargar">Cargar</a>
 											</div>
 										</div>
-										<div class="span6">
+										<div class="span2">
+											<div class="picture-box">
+												Huella dactilar
+												<a href="#" class="cargar">Cargar</a>
+											</div>
+										</div>
+										<div class="span2">
+											<div class="picture-box">
+												Retina
+												<a href="#" class="cargar">Cargar</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span2">
+											<label>Nombres</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Apellido Paterno</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Apellido Materno</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>N&uacute;mero Folio</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span2">
+											<label>Alias</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Documento Identidad</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Estado Civil</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Fecha de Nacimiento</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span8">
+											<label>Lugar de Nacimiento</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span8">
+											<label>Domicilio</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span2">
+											<label>Colonia</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Ocupaci&oacute;n</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Escolaridad</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Tel&eacute;fono</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span2">
+											<label>Fecha de Ingreso</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Hora de Ingreso</label>
+											<input>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span8">
+											<div class="underline"></div>
+											<strong>Faltas</strong>
+											<div class="underline"></div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="span8">
 											<div class="row">
-												<div class="span3">
-													<label>Nombres</label>
-													<input>
-												</div>
-												<div class="span3">
-													<label>Apellido Paterno</label>
-													<input>
+												<div class="span8">
+													<select>	
+														<option>Art 29 Consumo de cannabis</option>
+														<option>Art 19 manejando en estado de ebriedad</option>
+													</select>
 												</div>
 											</div>
 											<div class="row">
-												<div class="span3">
-													<label>Apellido Materno</label>
-													<input>
-												</div>
-												<div class="span3">
-													<label>Alias</label>
-													<input>
+												<div class="span8">
+													<table class="table table-striped table-delitos">
+														<thead>
+															<tr>
+																<th>Falta</th>
+																<th>Multa</th>
+																<th>Detención</th>
+																<th></th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr>
+																<td>Art 29 consumo de cannabis</td>
+																<td>100 $</td>
+																<td>24 h</td>
+																<td>
+																	<a href="#" class="agregar-delito">
+																		Agregar
+																	</a>
+																</td>
+															</tr>
+															<tr>
+																<td>Art 19 manejando en estado de ebriedad</td>
+																<td>
+																	<i class="icon-ban-circle"></i>
+																</td>
+																<td>24 h</td>
+																<td>
+																	<a href="#" class="agregar-delito">
+																		Agregar
+																	</a>
+																</td>
+															</tr>
+														</tbody>
+													</table>
 												</div>
 											</div>
 											<div class="row">
-												<div class="span3">
-													<label>Documento Identidad</label>
-													<input>
-												</div>
-												<div class="span3">
-													<label>N&uacute;mero Folio</label>
-													<input>
+												<div class="span8">
+													<div class="underline"></div>
+													<strong>Delitos</strong>
+													<div class="underline"></div>
 												</div>
 											</div>
 											<div class="row">
-												<div class="span3">
-													<label>Fecha de Ingreso</label>
-													<input>
-												</div>
-												<div class="span3">
-													<label>Hora de Ingreso</label>
-													<input>
+												<div class="span8">
+													<div class="row">
+														<div class="span8">
+															<select>	
+																<option>Asesinato</option>
+																<option>Robo a mano armada</option>
+															</select>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span8">
+															<table class="table table-striped table-delitos">
+																<thead>
+																	<tr>
+																		<th>Delito</th>
+																		<th></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Asesinato</td>
+																		<td class="text-right">
+																			<a href="#" class="agregar-delito">
+																				Agregar
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>Robo</td>
+																		<td class="text-right">
+																			<a href="#" class="agregar-delito">
+																				Agregar
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>

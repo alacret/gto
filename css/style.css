@@ -551,7 +551,7 @@ select {
 }
 
 textarea {
-	width: 100% !important;
+	width: 98% !important;
 }
 
 .underline {
@@ -811,7 +811,7 @@ textarea {
 }
 
 .btn-bottom {
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .text-center {
@@ -828,4 +828,22 @@ textarea {
 
 #colect-items .row {
 	margin-bottom: 10px;
+}
+
+.consultas .nav {
+	width: 620px;
+}
+
+.consultas .accordion-inner .span2 {
+	width: 120px;
+}
+
+.item-number {
+	border: 1px solid #969696;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	height: 25px;
+	width: 25px;
+	text-align: center;
 }

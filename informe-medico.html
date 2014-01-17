@@ -56,7 +56,10 @@ Bandeja de salida
 Bandeja de informacion
 							</a>
 							<a href="bandeja-reportes.html">
-Reportes
+Bandeja de reportes
+							</a>
+							<a href="bandeja-administrador.html">
+Bandeja de administrador
 							</a>
 						</div>
 					</div>
@@ -72,97 +75,298 @@ Reportes
 							</div>
 							<form>
 								<div class="row">
-									<div class="span2">
-										<label>Nombres</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Apellido Paterno</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Apellido Materno</label>
-										<input>
-									</div>
 									<div class="span2 text-center">
 										<div class="picture-box">
 											Fotograf&iacute;a
 											<a href="#" class="cargar">Cargar</a>
 										</div>
 									</div>
+									<div class="span2">
+										<label>Nombres</label>
+										<input placeholder="Pedro José" disabled="disabled">
+									</div>
+									<div class="span2">
+										<label>Apellido Paterno</label>
+										<input placeholder="García" disabled="disabled">
+									</div>
+									<div class="span2">
+										<label>Apellido Materno</label>
+										<input placeholder="Perez" disabled="disabled">
+									</div>
 								</div>
-							      <div class="row">
-									<div class="span2">
-										<label>Tipo de sangre</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Cicatrices y tatuajes</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Heridas</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Condiciones previas</label>
-										<input>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="span2">
-										<label>Datos m&eacute;dicos</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Datos m&eacute;dicos</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Datos m&eacute;dicos</label>
-										<input>
-									</div>
-									<div class="span2">
-										<label>Datos m&eacute;dicos</label>
-										<input>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="span8">
-										<label>Datos del m&eacute;dico de turno</label>
-										<input>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="span8">
-										<label>Observaciones</label>
-										<textarea></textarea>
-									</div>
-								  </div>
-								  <div class="row">
-								  	<div class="span2 text-center">
-								  		<a href="#" class="btn btn-info btn-total">
-								  			Datos morfol&oacute;gicos
-								  		</a>
-								  	</div>
-								  	<div class="span2 text-center">
-								  		<a href="#" class="btn btn-info btn-total">
-								  			Otra<br>
-								  			Consulta
-								  		</a>
-								  	</div>
-								  	<div class="span2 text-center">
-								  		<a href="#" class="btn btn-info btn-total">
-								  			Certificado<br>
-								  			m&eacute;dico
-								  		</a>
-								  	</div>
-								  	<div class="span2 text-center">
-								  		<!-- <a href="#" class="btn btn-info">
-								  			test<br>
-								  			test
-								  		</a> -->
-								  	</div>
+								  <div class="consultas">
+								  	<ul class="nav nav-tabs">
+									    <li class="active"><a href="#tab1" data-toggle="tab">Consulta</a></li>
+									    <li><a href="#tab2" data-toggle="tab">Consultas Anteriores</a></li>
+									  </ul>
+									  <div class="tab-content">
+									    <div class="tab-pane active" id="tab1">
+									      <div class="row">
+									      	<div class="span8">
+									      		<select>
+									      			<option>Lesiones</option>
+									      			<option>Trauma</option>
+									      		</select>
+									      	</div>
+										  </div>
+										  <div class="row">
+									      	<div class="span8">
+									      		<select>
+									      			<option>Intoxicaciones</option>
+									      			<option>Drogas</option>
+									      		</select>
+									      	</div>
+										  </div>
+									      <div class="row">
+									      	<div class="span8">
+									      		<label>Diagn&oacute;stico</label>
+									      		<textarea></textarea>
+									      	</div>
+										  </div>
+										  <div class="row">
+									      	<div class="span8">
+									      		<label>Observaciones</label>
+									      		<textarea></textarea>
+									      	</div>
+								  		  </div>
+								  		  <div class="row">
+											<div class="span8">
+												<div class="accordion" id="accordion-1">
+												  <div class="accordion-group">
+												    <div class="accordion-heading">
+												      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-1" href="#collapse1">
+												        Caracter&iacute;sticas F&iacute;sicas
+												        <i class="icon-plus pull-right"></i>
+												      </a>
+												    </div>
+												    <div id="collapse1" class="accordion-body collapse">
+												      <div class="accordion-inner">
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Estatura</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Complexi&oacute;n</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Tez</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Cabello</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Forma de cara</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Ceja</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Ojos</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Nariz</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Boca</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Labios</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Bigote/Barba</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Vestimenta</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span7">
+												        		<label>Se&ntilde;as particulares</label>
+												        		<input>
+												        	</div>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+											</div>
+										  </div>
+								  		  <div class="row">
+											<div class="span8">
+												<div class="underline"></div>
+												<strong>Datos del m&eacute;dico de turno</strong>
+												<div class="underline"></div>
+											</div>
+										  </div>
+										  <div class="row">
+										  	<div class="span2">
+										  		<label>Nombres</label>
+										  		<input>
+										  	</div>
+										  	<div class="span2">
+										  		<label>Apellido paterno</label>
+										  		<input>
+										  	</div>
+										  	<div class="span2">
+										  		<label>Apellido materno</label>
+										  		<input>
+										  	</div>
+										  	<div class="span2">
+										  		<label>Credenciales</label>
+										  		<input>
+										  	</div>
+										  </div>
+									    </div>
+									    <div class="tab-pane" id="tab2">
+									      <div class="row">
+									      	<div class="span8">
+									      		<select disabled="disabled">
+									      			<option>Trauma</option>
+									      			<option>Lesiones</option>
+									      		</select>
+									      	</div>
+										  </div>
+										  <div class="row">
+									      	<div class="span8">
+									      		<select disabled="disabled">
+									      			<option>Drogas</option>
+									      			<option>Intoxicaciones</option>
+									      		</select>
+									      	</div>
+										  </div>
+									      <div class="row">
+									      	<div class="span8">
+									      		<label>Diagn&oacute;stico</label>
+									      		<textarea disabled="disabled">Proin interdum id urna ut dictum. Praesent tempus vulputate massa nec malesuada. Nulla cursus hendrerit nisi a pharetra. Ut faucibus erat at risus mollis lacinia in eu mi. Sed gravida tempor leo. Donec tristique tortor vel risus volutpat tempus. Proin ultricies fringilla iaculis. Donec odio est, viverra vel volutpat aliquet, rhoncus sit amet libero. Donec ut interdum lectus.</textarea>
+									      	</div>
+										  </div>
+										  <div class="row">
+									      	<div class="span8">
+									      		<label>Observaciones</label>
+									      		<textarea disabled="disabled">Proin interdum id urna ut dictum. Praesent tempus vulputate massa nec malesuada. Nulla cursus hendrerit nisi a pharetra. Ut faucibus erat at risus mollis lacinia in eu mi. Sed gravida tempor leo. Donec tristique tortor vel risus volutpat tempus. Proin ultricies fringilla iaculis. Donec odio est, viverra vel volutpat aliquet, rhoncus sit amet libero. Donec ut interdum lectus.</textarea>
+									      	</div>
+								  		  </div>
+								  		  <div class="row">
+											<div class="span8">
+												<div class="accordion" id="accordion-2">
+												  <div class="accordion-group">
+												    <div class="accordion-heading">
+												      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-2" href="#collapse2">
+												        Caracter&iacute;sticas F&iacute;sicas
+												        <i class="icon-plus pull-right"></i>
+												      </a>
+												    </div>
+												    <div id="collapse2" class="accordion-body collapse in">
+												      <div class="accordion-inner">
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Estatura</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Complexi&oacute;n</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Tez</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Cabello</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Forma de cara</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Ceja</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Ojos</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Nariz</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span2">
+												        		<label>Boca</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Labios</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Bigote/Barba</label>
+												        		<input>
+												        	</div>
+												        	<div class="span2">
+												        		<label>Vestimenta</label>
+												        		<input>
+												        	</div>
+												        </div>
+												        <div class="row">
+												        	<div class="span7">
+												        		<label>Se&ntilde;as particulares</label>
+												        		<input>
+												        	</div>
+												        </div>
+												      </div>
+												    </div>
+												  </div>
+												</div>
+											</div>
+										  </div>
+								  		  <div class="row">
+											<div class="span8">
+												<div class="underline"></div>
+												<strong>Datos del m&eacute;dico de turno</strong>
+												<div class="underline"></div>
+											</div>
+										  </div>
+										  <div class="row">
+										  	<div class="span2">
+										  		<label>Nombres</label>
+										  		<input placeholder="Carlos Andres" disabled="disabled">
+										  	</div>
+										  	<div class="span2">
+										  		<label>Apellido paterno</label>
+										  		<input placeholder="Hidlestone" disabled="disabled">
+										  	</div>
+										  	<div class="span2">
+										  		<label>Apellido materno</label>
+										  		<input placeholder="Lewinski" disabled="disabled">
+										  	</div>
+										  	<div class="span2">
+										  		<label>Credenciales</label>
+										  		<input placeholder="HJV787JB7" disabled="disabled">
+										  	</div>
+										  </div>
+									    </div>
+									  </div>
 								  </div>
 								  <div class="row save-next">
 								  	<div class="span4 text-center">
@@ -185,4 +389,9 @@ Reportes
 			</div>
 		</div>
 	</body>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+    	$(".collapse").collapse()
+    </script>
 </html>

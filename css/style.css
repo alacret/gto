@@ -838,6 +838,18 @@ textarea {
 	width: 120px;
 }
 
+.consultas .accordion-inner .span4 {
+	width: 260px;
+}
+
+.consultas .accordion-inner .span6 {
+	width: 120px;
+}
+
+.consultas .accordion-inner .span8 {
+	width: 540px;
+}
+
 .item-number {
 	border: 1px solid #969696;
 	border-radius: 5px;

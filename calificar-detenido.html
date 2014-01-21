@@ -9,8 +9,20 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="logo">
-					<img src="img/logo.png">
+				<div class="row">
+					<div class="span2">
+						<div class="logo">
+							<img src="img/logo.png">
+						</div>
+					</div>
+					<div class="span4 offset6 text-right">
+						<div class="row user-name">
+							<span class="name">Romer Ramos</span>
+							<a href="login.html" class="btn btn-danger btn-mini">
+								<i class="icon-off icon-white"></i>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -207,14 +219,14 @@ Bandeja de administrador
 									</div>
 								</div>
 								<div class="row">
-											<div class="span2">
-												<label>Placa</label>
-												<input>
-											</div>
-											<div class="span6">
-												<label>Nombre</label>
-												<input>
-											</div>
+									<div class="span2">
+										<label>Placa</label>
+										<input>
+									</div>
+									<div class="span6">
+										<label>Nombre</label>
+										<input>
+									</div>
 								</div>	
 								<div class="row">
 									<div class="span8">
@@ -250,9 +262,9 @@ Bandeja de administrador
 								      					<td>100 $</td>
 								      					<td>24 h</td>
 								      					<td>
-								      						<a href="#" class="agregar-delito">
-								      							Agregar
-								      						</a>
+								      						<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">
+								      							<i class="icon-trash icon-white"></i>
+								      						</button>
 								      					</td>
 								      				</tr>
 								      				<tr>
@@ -262,13 +274,31 @@ Bandeja de administrador
 								      					</td>
 								      					<td>24 h</td>
 								      					<td>
-								      						<a href="#" class="agregar-delito">
-								      							Agregar
-								      						</a>
+								      						<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">
+								      							<i class="icon-trash icon-white"></i>
+								      						</button>
 								      					</td>
 								      				</tr>
 								      			</tbody>
 								      		</table>
+								      		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											  <div class="modal-body">
+											    <label>
+											    	<strong>
+											    		Motivo por el que elmina la falta
+											    	</strong>
+											    </label>
+											    <textarea></textarea>
+											    <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">
+											    	Cancelar
+											    	<i class="icon-ban-circle icon-white"></i>
+											    </button>
+											    <button class="btn btn-primary">
+											    	Guardar
+											    	<i class="icon-folder-open icon-white"></i>
+											    </button>
+											  </div>
+											</div>
 								      	</div>
 								      </div>
 								<div class="row">
@@ -301,21 +331,39 @@ Bandeja de administrador
 								      				<tr>
 								      					<td>Asesinato</td>
 								      					<td class="text-right">
-								      						<a href="#" class="agregar-delito">
-								      							Agregar
-								      						</a>
+								      						<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal-2">
+								      							<i class="icon-trash icon-white"></i>
+								      						</button>
 								      					</td>
 								      				</tr>
 								      				<tr>
 								      					<td>Robo</td>
 								      					<td class="text-right">
-								      						<a href="#" class="agregar-delito">
-								      							Agregar
-								      						</a>
+								      						<button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal-2">
+								      							<i class="icon-trash icon-white"></i>
+								      						</button>
 								      					</td>
 								      				</tr>
 								      			</tbody>
 								      		</table>
+								      		<div id="myModal-2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											  <div class="modal-body">
+											    <label>
+											    	<strong>
+											    		Motivo por el que elmina el delito
+											    	</strong>
+											    </label>
+											    <textarea></textarea>
+											    <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">
+											    	Cancelar
+											    	<i class="icon-ban-circle icon-white"></i>
+											    </button>
+											    <button class="btn btn-primary">
+											    	Guardar
+											    	<i class="icon-folder-open icon-white"></i>
+											    </button>
+											  </div>
+											</div>
 								      	</div>
 								      </div>
 									</div>
@@ -361,5 +409,6 @@ Bandeja de administrador
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
     	$(".collapse").collapse()
+    	$('#myModal').modal(options)
     </script>
 </html>

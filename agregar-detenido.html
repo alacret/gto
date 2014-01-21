@@ -75,6 +75,110 @@ Bandeja de administrador
 							<div class="form_incidente">
 								<form>
 									<div class="row">
+										<div class="span8 consultas">
+											<div class="accordion" id="accordion2">
+											  <div class="accordion-group">
+											    <div class="accordion-heading">
+											      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+											        Incidente
+											      </a>
+											    </div>
+											    <div id="collapseOne" class="accordion-body collapse">
+											      <div class="accordion-inner">
+											        <div class="row">
+														<div class="span2">
+															<label>Folio</label>
+															<input>
+														</div>
+														<div class="span2">
+															<label>No. del Informe</label>
+															<input>
+														</div>
+														<div class="span2">
+															<label>Fecha</label>
+															<input>
+														</div>
+														<div class="span2">
+															<label>Hora</label>
+															<input>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span8">
+															<label>Motivo</label>
+															<input>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span8">
+															<div class="underline"></div>
+															<strong>Lugar de la detenci&oacute;n</strong>
+															<div class="underline"></div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span8">
+															<div class="row">
+																<div class="span2">
+																	<label>Colonia</label>
+																	<input>
+																</div>
+																<div class="span2">
+																	<label>Calle</label>
+																	<input>
+																</div>
+																<div class="span2">
+																	<label>Entre calle</label>
+																	<input>
+																</div>
+																<div class="span2">
+																	<label>Y calle</label>
+																	<input>
+																</div>
+															</div>
+															<div class="row">
+																<div class="span8">
+																	<label>Referencia</label>
+																	<input>
+																</div>
+															</div>
+
+															<div class="row">
+																<div class="span4">
+																	<label>Teléfono EXT</label>
+																	<input>
+																</div>
+																<div class="span4">
+																	<label>Teléfono INT</label>
+																	<input>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span8">
+															<div class="underline"></div>
+															<strong>Elemento aprensor</strong>
+															<div class="underline"></div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="span2">
+															<label>Placa</label>
+															<input>
+														</div>
+														<div class="span6">
+															<label>Nombre</label>
+															<input>
+														</div>
+													</div>
+											      </div>
+											    </div>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
 										<div class="span8">
 											<div class="underline"></div>
 											<strong>Detenido</strong>
@@ -115,15 +219,11 @@ Bandeja de administrador
 											<input>
 										</div>
 										<div class="span2">
-											<label>N&uacute;mero Folio</label>
+											<label>Alias</label>
 											<input>
 										</div>
 									</div>
 									<div class="row">
-										<div class="span2">
-											<label>Alias</label>
-											<input>
-										</div>
 										<div class="span2">
 											<label>Documento Identidad</label>
 											<input>
@@ -134,6 +234,10 @@ Bandeja de administrador
 										</div>
 										<div class="span2">
 											<label>Fecha de Nacimiento</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Colonia</label>
 											<input>
 										</div>
 									</div>
@@ -151,10 +255,6 @@ Bandeja de administrador
 									</div>
 									<div class="row">
 										<div class="span2">
-											<label>Colonia</label>
-											<input>
-										</div>
-										<div class="span2">
 											<label>Ocupaci&oacute;n</label>
 											<input>
 										</div>
@@ -164,6 +264,10 @@ Bandeja de administrador
 										</div>
 										<div class="span2">
 											<label>Tel&eacute;fono</label>
+											<input>
+										</div>
+										<div class="span2">
+											<label>Fecha de Ingreso</label>
 											<input>
 										</div>
 									</div>
@@ -298,4 +402,9 @@ Bandeja de administrador
 				</div>
 			</div>
 		</body>
+		<script src="http://code.jquery.com/jquery.js"></script>
+	    <script src="js/bootstrap.js"></script>
+	    <script type="text/javascript">
+	    	$(".collapse").collapse()
+	    </script>
 	</html>

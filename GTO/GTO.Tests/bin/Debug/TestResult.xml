@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\GTO\GTO\GTO.Tests\bin\Debug\GTO.Tests.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-01-28" time="14:26:19">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.3\bin" machine-name="MALDO-PC" user="maldo" user-domain="maldo-PC" />
+  <culture-info current-culture="es-ES" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\GTO\GTO\GTO.Tests\bin\Debug\GTO.Tests.dll" executed="True" result="Success" success="True" time="1.848" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="GTO" executed="True" result="Success" success="True" time="1.819" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.818" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="1.815" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="HomeControllerTest" executed="True" result="Success" success="True" time="1.806" asserts="0">
+                    <results>
+                      <test-case name="GTO.Tests.Controllers.HomeControllerTest.About" executed="True" result="Success" success="True" time="1.250" asserts="1" />
+                      <test-case name="GTO.Tests.Controllers.HomeControllerTest.Contact" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                      <test-case name="GTO.Tests.Controllers.HomeControllerTest.Index" executed="True" result="Success" success="True" time="0.512" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
